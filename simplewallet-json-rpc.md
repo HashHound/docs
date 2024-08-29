@@ -1,11 +1,11 @@
 To start wallet JSON RPC API server you should specify a port on which server binds (additionally to standard wallet's arguments). You can choose any free port. To do that execute the following command from the command line:
 ```
- simplewallet --wallet-file=example_wallet.bin --pass=12345 --rpc-bind-port=32348
+ simplewallet --wallet-file=example_wallet.bin --pass=12345 --rpc-bind-port=53000
 ```
 Having done that you're ready to operate with the wallet through the following API URLs (e.g., your IP address is 95.46.98.64):
 
- http://95.46.98.64:32348/json_rpc
- http://localhost:32348/json_rpc
+ http://95.46.98.64:53000/json_rpc
+ http://localhost:53000/json_rpc
 
 
 **Note.** It is also possible to run JSON RPC API server in GUI Wallet Classic. To do so, in the menu select "Wallet RPC interface" and check "Run Wallet RPC interface". Also, there you can set URL and port where wallet should listen, as well as authorisation if needed.

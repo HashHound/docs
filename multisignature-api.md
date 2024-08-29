@@ -1,6 +1,6 @@
 #Multisignature API
 
-Currently Karbo implements standard M—N multisigs through ITransaction low-level API.
+Currently Dogemone implements standard M—N multisigs through ITransaction low-level API.
 
 Multisignature is a special type of output destination address in a transaction. Usually every output is sent to one public key, which belongs to a single person, but multi-signatures allow you to create a “virtual address” in such a way that many people can (and should) cooperate to release the money associated with that address.
 

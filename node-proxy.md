@@ -1,19 +1,19 @@
 
-# How to run Karbo node behind reverse proxy
+# How to run Dogemone node behind reverse proxy
 
-Here you will learn how to run Karbo node behind the reverse proxy for access in a browser via `https://` protocol, so it can be used as an API for various services, like client-side web wallet, explorer, etc.
+Here you will learn how to run Dogemone node behind the reverse proxy for access in a browser via `https://` protocol, so it can be used as an API for various services, like client-side web wallet, explorer, etc.
 
 We will use nginx for this setup, which is probably the most popular solution. This example is for a VPS server on an Ubuntu. 
 
 You will need a domain and a SSL certificate, you can use a free certificate from Letsencrypt and Cerfbot. We will omit the instructions on how to get certificates and assume you have them.
 
-## Run Karbo daemon
+## Run Dogemone daemon
 
-Provided you have a VPS server, run Karbo daemon to let it sync while you set up the proxy.
+Provided you have a VPS server, run Dogemone daemon to let it sync while you set up the proxy.
 
-Here's the example how to run Karbo daemon for a public node:
+Here's the example how to run Dogemone daemon for a public node:
 ```
-./karbowanecd -i --enable-cors=* --restricted-rpc --rpc-bind-ip 0.0.0.0 --rpc-bind-port 32348 --fee-address=KedFK1bvF665GgTe8HA5dZDLeM4wFEUPzeRS5obaK6dTa12tzjyJeWGPbyX938Xw4zU4XypcSEXtb5BZazBsNj7HS2XZLEp --fee-amount 0.01
+./dogemoned -i --enable-cors=* --restricted-rpc --rpc-bind-ip 0.0.0.0 --rpc-bind-port 53000 --fee-address=KedFK1bvF665GgTe8HA5dZDLeM4wFEUPzeRS5obaK6dTa12tzjyJeWGPbyX938Xw4zU4XypcSEXtb5BZazBsNj7HS2XZLEp --fee-amount 0.01
 ```
 By these startup flags, you tell daemon to enable CORS headers, enable additional blockchain data for an explorer, restrict some RPC functions, like disable mining so no one can mine on your server. Also, you can set a fee amount and address so you can receive some fees if someone uses your node to work with wallet. Don't expect to get rich though.
 
@@ -56,7 +56,7 @@ server {
 
 server {
     listen 32448;
-    server_name node.karbo.org;
+    server_name node.dogemone.online;
 
     ssl_certificate           /etc/nginx/cert.crt;
     ssl_certificate_key       /etc/nginx/cert.key;
@@ -67,7 +67,7 @@ server {
     ssl_ciphers HIGH:!aNULL:!eNULL:!EXPORT:!CAMELLIA:!DES:!MD5:!PSK:!RC4;
     ssl_prefer_server_ciphers on;
 
-    access_log            /var/log/nginx/node.karbo.org.log;
+    access_log            /var/log/nginx/node.dogemone.online.log;
 
     location / {
 
@@ -76,7 +76,7 @@ server {
       proxy_set_header        X-Forwarded-For $proxy_add_x_forwarded_for;
       proxy_set_header        X-Forwarded-Proto $scheme;
 
-      proxy_pass          http://0.0.0.0:32348;
+      proxy_pass          http://0.0.0.0:53000;
       proxy_read_timeout  90;
     }
 }
@@ -87,6 +87,6 @@ Start nginx:
 systemctl start nginx
 ```
 
-If you followed the instructions and have done all correctly, your node now will be accessible via `http://` protocol at its default port 32348 like this http://node.karbo.org:32348/ and via `https://` protocol at 32448 port, like this https://node.karbo.org:32448/.
+If you followed the instructions and have done all correctly, your node now will be accessible via `http://` protocol at its default port 53000 like this http://node.dogemone.online:53000/ and via `https://` protocol at 32448 port, like this https://node.dogemone.online:32448/.
 
-This setup is not meant for native wallets to work with node via https:// protocol, point them to 32348 port via http:// instead.
+This setup is not meant for native wallets to work with node via https:// protocol, point them to 53000 port via http:// instead.

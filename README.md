@@ -1,18 +1,18 @@
-# Karbo Docs
+# Dogemone Docs
 
-> Welcome to Karbo Documentation and Guides.
+> Welcome to Dogemone Documentation and Guides.
 
 ## Getting Started
 
-* [Karbo Reference Client Overview](karbo-cli-guide.md)
+* [Dogemone Reference Client Overview](dogemone-cli-guide.md)
 
 
 ## User Guides
 
 * [Light Wallet and Masternodes](light-wallet.md)
-* [Daemon command line arguments and commands](karbo-daemon.md)
-* [How to run Karbo node as Linux service](karbo-node.md)
-* [How to run Karbo node behind reverse proxy](node-proxy.md)
+* [Daemon command line arguments and commands](dogemone-daemon.md)
+* [How to run Dogemone node as Linux service](dogemone-node.md)
+* [How to run Dogemone node behind reverse proxy](node-proxy.md)
 
 ## Mining guides
 
@@ -22,20 +22,20 @@
 ## Integration Guides
 
 * [Integration Guide](integration.md)
-* [Karbo RPC Wallet](karbo-walletd.md)
+* [Dogemone RPC Wallet](dogemone-walletd.md)
 
 
 ## API Documentation
 
-* [Karbo Node JSON RPC API](node-json-rpc.md)
-* [Karbo Simplewallet JSON RPC API](simplewallet-json-rpc.md)
-* [Karbo RPC Wallet JSON RPC API](walletd-json-rpc.md)
+* [Dogemone Node JSON RPC API](node-json-rpc.md)
+* [Dogemone Simplewallet JSON RPC API](simplewallet-json-rpc.md)
+* [Dogemone RPC Wallet JSON RPC API](walletd-json-rpc.md)
 * [Multisignature API](multisignature-api.md)
 
 ## Articles and Papers
-* [Karbo Whitepaper v. 1.0](https://github.com/Karbovanets/papers/blob/master/whitepaper.pdf)
-* [CryptoNote Whitepaper v 2.0](https://github.com/Karbovanets/papers/blob/master/cryptonote_whitepaper.pdf)
-* [Various KIPs (Karbo Imprmovement Proposals) and articles](https://github.com/Karbovanets/papers)
+* [Dogemone Whitepaper v. 1.0](https://github.com/HashHound/papers/blob/master/whitepaper.pdf)
+* [CryptoNote Whitepaper v 2.0](https://github.com/HashHound/papers/blob/master/cryptonote_whitepaper.pdf)
+* [Various KIPs (Dogemone Imprmovement Proposals) and articles](https://github.com/HashHound/papers)
 
 \
 \
@@ -48,4 +48,4 @@ The content is partially based on documentation that was originally written by t
 
 \
 \
-&copy; 2016-2022 Karbo Developers
+&copy; 2016-2022 Dogemone Developers

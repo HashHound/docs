@@ -2,27 +2,27 @@
 
 ## General overview
 
-Karbowanec works through 2 separate binary files operated through command line:
+Dogemone works through 2 separate binary files operated through command line:
 
-1. **karbowanecd** – daemon to synchronize the blockchain and mine krbcoins.
+1. **dogemoned** – daemon to synchronize the blockchain and mine krbcoins.
 2. **simplewallet** – wallet to receive and send funds.
 
-Make sure to place these files in one separate folder. 
+Make sure to place these files in one separate folder.
 
 
-## Install Karbowanec
+## Install Dogemone
 
-1. Unzip the archive to one separate folder. Karbowanec will generate 
+1. Unzip the archive to one separate folder. Dogemone will generate
 additional data files and log files in the same directory.
-The blockchain data is stored in `~/.karbowanec` on Linux/Unix systems, 
-`C:\Users\%USERNAME%\AppData\Roaming\karbowanec` on Windows or in
+The blockchain data is stored in `~/.dogemone` on Linux/Unix systems,
+`C:\Users\%USERNAME%\AppData\Roaming\dogemone` on Windows or in
 `~/Library/Application support/` on Mac OS.
 
-## Launch Karbowanec
+## Launch Dogemone
 
-1. Open **karbowanecd**
+1. Open **dogemoned**
 
-2. Wait until **karbowanecd** is synchronized. This may take a while. You will be 
+2. Wait until **dogemoned** is synchronized. This may take a while. You will be
 notified with several green "SYNCHRONIZED OK" messages.
 
 3. Open **simplewallet**.
@@ -30,22 +30,22 @@ notified with several green "SYNCHRONIZED OK" messages.
 
 ## Daemon: synchronization and mining
 
-After **karbowanecd** is launched you will have to wait until it is synchronized with 
-the network. You will be notified with several green "SYNCHRONIZED OK" messages. 
+After **dogemoned** is launched you will have to wait until it is synchronized with
+the network. You will be notified with several green "SYNCHRONIZED OK" messages.
 Here are the most important daemon commands:
 * `start_mining <SECRET_SPEND_KEY> <SECRET_VIEW_KEY> [threads=1]` Start mining in several threads to a given wallet
 * `stop_mining`					Stop mining
 * `show_hr`						Show current mining hashrate
 * `hide_hr`						Stop showing current mining hashrate
 * `help`						Show all daemon commands
-* `exit`						Exit karbowanecd
+* `exit`						Exit dogemoned
 
 Please refer to [Mining guide](mining.md) for more info.
 
 ## Wallet: send and receive payments
 
-Simplewallet can only be used after the daemon is launched and synchronized. 
-Simlewallet automatically synchronizes with karbowanecd. Here are the most 
+Simplewallet can only be used after the daemon is launched and synchronized.
+Simlewallet automatically synchronizes with dogemoned. Here are the most
 important wallet commands:
 
 * `address`						Show your wallet address

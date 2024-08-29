@@ -20,9 +20,9 @@ Option                                 | Description
   `--no-console`                       | Disable daemon console commands
   `--testnet`                          | Used to deploy test nets. Checkpoints and hardcoded seeds are ignored, network id is changed. Use it with --data-dir flag. The wallet must be launched with --testnet flag.
   `--rpc-bind-ip arg (=127.0.0.1)`     |
-  `--rpc-bind-port arg (=32348)`       |
+  `--rpc-bind-port arg (=53000)`       |
   `--p2p-bind-ip arg (=0.0.0.0)`       | Interface for p2p network protocol
-  `--p2p-bind-port arg (=32347)`       |  Port for p2p network protocol
+  `--p2p-bind-port arg (=49200)`       |  Port for p2p network protocol
   `--p2p-external-port arg (=0)`       | External port for p2p network protocol (if port forwarding used with NAT)
   `--allow-local-ip`                   | Allow local ip add to peer list, mostly in debug purposes
   `--add-peer arg`                     | Manually add peer to local peerlist
@@ -44,7 +44,7 @@ Command                   | Description                   | Arg 1               
  `stop_mining`            | Stop mining
  `show_hr`                | Show current mining hashrate
  `hide_hr`                | Stop showing current mining hashrate
- `exit`                   | Exit karbowanecd
+ `exit`                   | Exit dogemoned
  `ban`                    | Ban a given <IP> for a given amount of <seconds> | [string] IP_address | [uint] seconds
  `unban`                  | Unban a given <IP>            | [string] IP_address
  `height`                 | Print current blockchain height

@@ -1,16 +1,16 @@
-On this page you will find description of every method in Karbowanec RPC Wallet (Payment Gate) API. Karbowanec RPC Wallet is a HTTP server which provides JSON 2.0 RPC interface for Karbowanec payment operations and address management. Each method has its own page that can be found by clicking on this method.
+On this page you will find description of every method in Dogemone RPC Wallet (Payment Gate) API. Dogemone RPC Wallet is a HTTP server which provides JSON 2.0 RPC interface for Dogemone payment operations and address management. Each method has its own page that can be found by clicking on this method.
 
-More on how to start and operate Karbowanec RPC Wallet can be found here: [Karbowanec RPC Wallet](karbo-walletd.md)
+More on how to start and operate Dogemone RPC Wallet can be found here: [Dogemone RPC Wallet](dogemone-walletd.md)
 
-To make a JSON PRC request to your Karbowanec RPC Wallet you should use POST request that looks like this:
+To make a JSON PRC request to your Dogemone RPC Wallet you should use POST request that looks like this:
 ```
 http://<service address>:<service port>/json_rpc
 ```
 
 Where:
 
--   `<service address>` is an IP of Karbowanec RPC Wallet, if RPC Wallet is located on local machine it is either `127.0.0.1` or `localhost`,
--   `<service port>` is Karbowanec RPC Wallet port, by default it is binded to 8070 port, but it can be manually binded to any port you want, read more about this
+-   `<service address>` is an IP of Dogemone RPC Wallet, if RPC Wallet is located on local machine it is either `127.0.0.1` or `localhost`,
+-   `<service port>` is Dogemone RPC Wallet port, by default it is binded to 8070 port, but it can be manually binded to any port you want, read more about this
 
 
 
@@ -871,7 +871,7 @@ Input:
 |---------------|-----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|-------------------------------------------------------------------------------------------------------------------------------------|
 | addresses     | No        | Array of strings, where each string is an address to take the funds from                                                                                                                                   | array  | See below                                                                                                                           |
 | transfers     | Yes       | Array that contains: `address` - string; `amount` - int64                                                                                                                                                  | array  | "amount": 10000000000, "address": "Kcpg4B4kjwefDeBHGyRdUbgeq5FSYHCof7db8uj6dkFAjkvLSQBc3J7iDSwFx75TUj6MnDYKM5Eu3UmtaAJhvEjdKw1Jkz5" |
-| fee           | Yes       | Transaction fee. Minimal fee in Karbowanec network is .0001 KRB. This parameter should be specified in minimal available KRB units. For example, if your fee is .01 KRB, you should pass it as 10000000000 | uint64 | 1000000                                                                                                                             |
+| fee           | Yes       | Transaction fee. Minimal fee in Dogemone network is .0001 KRB. This parameter should be specified in minimal available KRB units. For example, if your fee is .01 KRB, you should pass it as 10000000000 | uint64 | 1000000                                                                                                                             |
 | unlockTime    | No        | Height of the block until which transaction is going to be locked for spending.                                                                                                                            | uint64 | 0                                                                                                                                   |
 | anonymity     | Yes       | Privacy level (a discrete number from 1 to infinity). Level 6 and higher is recommended.                                                                                                                   | uint64 | 6                                                                                                                                   |
 | extra         | No        | String of variable length. Can contain A-Z, 0-9 characters.                                                                                                                                                | string |                                                                                                                                     |

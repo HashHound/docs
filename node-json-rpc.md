@@ -1,19 +1,19 @@
-# Karbo Node JSON RPC API
+# Dogemone Node JSON RPC API
 
 The daemon JSON RPC is a HTTP server which provides JSON 2.0 RPC interface for interacting with a daemon and a block explorer.
 
 To start Daemon JSON RPC API server you should specify a port on which server binds (additionally to standard daemon's arguments). You can choose any free port. To do that execute the following command from the command line:
 ```
- karbowanecd --rpc-bind-port=32348 
+ dogemoned --rpc-bind-port=53000 
 ```
 If you want Daemon to be accessed from other computer not only yours you should also use a `--rpc-bind-ip 0.0.0.0` command. To do that execute the following command from the command line:
 ```
- karbowanecd --rpc-bind-ip=0.0.0.0 --rpc-bind-port=32348 
+ dogemoned --rpc-bind-ip=0.0.0.0 --rpc-bind-port=53000 
 ```
 Having done that you're ready to operate with the daemon through the following API URLs (e.g., your IP address is 126.0.1.100):
 ```
- http://126.0.1.100:32348/json_rpc
- http://localhost:32348/json_rpc
+ http://126.0.1.100:53000/json_rpc
+ http://localhost:53000/json_rpc
 ```
 
 To make a JSON RPC request to your Daemon RPC you should use a POST request that looks like this:
@@ -23,7 +23,7 @@ To make a JSON RPC request to your Daemon RPC you should use a POST request that
 Parameter            | Description
 -------------------- | -------------------------------------------------------------
 `<service address>`  | IP of Daemon RPC, if it is located on local machine it is either 127.0.0.1 or localhost
-`<service port>`     | Daemon RPC port, by default it is bound to 32348 port, but it can be manually bound to any port you want
+`<service port>`     | Daemon RPC port, by default it is bound to 53000 port, but it can be manually bound to any port you want
 
 
 
@@ -2480,7 +2480,7 @@ Input:
   "id": "test",
   "method": "resolveopenalias",
   "params": {
-   "url":"aiwe.karbo.me"
+   "url":"aiwe.dogemone.me"
   }
 }
 ```
