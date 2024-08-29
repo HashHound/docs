@@ -4,7 +4,7 @@
 
 Dogemone works through 2 separate binary files operated through command line:
 
-1. **dogemoned** – daemon to synchronize the blockchain and mine krbcoins.
+1. **dogemoned** – daemon to synchronize the blockchain and mine dmecoins.
 2. **simplewallet** – wallet to receive and send funds.
 
 Make sure to place these files in one separate folder.

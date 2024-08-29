@@ -190,7 +190,7 @@ Output:
 
 ### get_payments
 
-Receives all the payments with a corresponding *payment_id* that were sent to the wallet. This method is used to get the KRB payments for the 3rd party services. As `simplewallet` uses only one address to receive KRB deposits, a unique *payment_id* should be assigned and shown to each user. The method will return all the payments for this user.
+Receives all the payments with a corresponding *payment_id* that were sent to the wallet. This method is used to get the DME payments for the 3rd party services. As `simplewallet` uses only one address to receive DME deposits, a unique *payment_id* should be assigned and shown to each user. The method will return all the payments for this user.
 
 URL:
 ```

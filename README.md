@@ -47,4 +47,4 @@ The content is partially based on documentation that was originally written by t
 
 \
 \
-&copy; 2016-2024 Dogemone Developers
+&copy; 2016-2024 Karbo and Dogemone Developers
