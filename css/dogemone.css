@@ -25,7 +25,7 @@ Author URI: http://themeforest.net/user/surjithctly
 9. CUSTOM MEDIA QUERIES
 10. BLOG
 
-If you having trouble in editing css. please send a mail to support@surjithctly.in -
+If you having trouble in editing css. please send a mail to support@surjithctly.in - 
 I will really help you
 
 */
@@ -34,15 +34,14 @@ I will really help you
 
 body {
 	font-family: 'Fira Sans', Arial, Helvetica, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑", sans-serif;
-	background: #FFF;
+	background:#FFF;
 	height: 100%;
 	margin: 0;
 	padding: 0;
-	color: #15315e;
+	color:#15315e;
 }
-
 strong, b {
-	font-weight: 600;
+	font-weight:600;
 }
 h1 {
 	font-size:50px;
@@ -74,12 +73,15 @@ h6 {
 	margin:10px 0;
 }
 
-h1, h2, h3, h4, h5, h6,a {
-	color: #FFD700; /* Gold */
+h1,h2,h3,h4,h5,h6,a {
+	color:rgb(0, 87, 184);
 }
 
+a {
+	color:#5173bd;
+}
 a:hover, a:focus {
-	color: #DAA520; /* Darker gold on hover */
+	color:#5173bd;
 }
 
 a.disabled {
@@ -172,7 +174,7 @@ a.disabled {
 }
 
 .has-margin-vertical {
-	margin:20px 0 30px;
+	margin:20px 0 30px;	
 }
 
 .has-margin-bottom {
@@ -184,15 +186,15 @@ a.disabled {
     margin-bottom: 30px;
 }
 
-
+ 
 /*========== 1 a. SUB PAGES ==============*/
 
 
 .subpage-head {
-
+	
 	padding-top: 120px;
 	padding-bottom: 15px;
-
+	
 }
 
 /*========== 2. HEADER ==============*/
@@ -226,10 +228,10 @@ a.disabled {
 	-moz-animation: fadein 2s;
 	-webkit-animation: fadein 2s;
 	-o-animation: fadein 2s;
-
+	
 	/*-webkit-animation-delay: 1s;
     animation-delay: 1s;*/
-
+	
 	position: relative;
 }
 
@@ -481,9 +483,9 @@ to {
 }
 .scrollto--arrow svg {
 	animation: arrowbounce 1s alternate infinite;
-	-moz-animation: arrowbounce 1s alternate infinite;
-	-webkit-animation: arrowbounce 1s alternate infinite;
-	-o-animation: arrowbounce 1s alternate infinite;
+	-moz-animation: arrowbounce 1s alternate infinite; 
+	-webkit-animation: arrowbounce 1s alternate infinite; 
+	-o-animation: arrowbounce 1s alternate infinite; 
 }
 */
 
@@ -526,7 +528,7 @@ to {
 
 /*
 .grad {
-	background-color: #127CC6;
+	background-color: #FFD700;
     background-image: linear-gradient(165deg,#127CC6 0%, #55C4F7 43%,#FFEE97 100%);
     background-size: cover;
     background-attachment: fixed;
@@ -534,7 +536,7 @@ to {
 }*/
 
 .grad {
-	background-color: #127CC6;
+	background-color: #FFD700;
     background-image: linear-gradient(165deg,#0057B8 0%, #55C4F7 43%,#FFEE97 100%);
     background-size: cover;
     background-attachment: fixed;
@@ -542,15 +544,15 @@ to {
 }
 
 .grad-splash {
-	background-color: #127CC6;
-    background-image: linear-gradient(165deg,#0E073F 0%, #0057B8 43%, #0AADFD 100%);
+	background-color: #FFD700;
+    background-color: #FFD700;
     background-size: cover;
     background-attachment: fixed;
 	background-repeat: no-repeat;
 }
 
 .grad1 {
-	background-color: #127CC6;
+	background-color: #FFD700;
     background-image: linear-gradient(175deg,#0E073F 50%, #0057B8 75%, #0AADFD 100%);
     background-size: cover;
     background-attachment: fixed;
@@ -558,12 +560,12 @@ to {
 }
 
 .grad2 {
-	background-color: #127CC6;
+	background-color: #FFD700;
     background-image: linear-gradient(165deg,#127CC6 32%, #55C4F7 100%);
     background-size: cover;
     background-attachment: fixed;
 	background-repeat: no-repeat;
-	color: #fff;
+	color: #FFFFFF;
 }
 
 .grad3 {
@@ -571,7 +573,7 @@ to {
     background-image: linear-gradient(rgba(24,131,202,1) 3%, rgba(24,131,202,0) 100%);
     background-size: cover;
 	background-repeat: no-repeat;
-	color: #fff;
+	color: #FFFFFF;
 }
 
 .inverse, .inverse * {
@@ -608,8 +610,8 @@ to {
 .intro h1.karb-logo {
 	font-size: 150px;
 	line-height: 100px;
-	font-weight: 900;
-	text-transform: none;
+	font-weight: 900; 
+	text-transform: none; 
 	letter-spacing: -1px;
 }
 
@@ -646,7 +648,7 @@ to {
 
 .intro .btn {
 	color: #0E073F;
-}
+} 
 
 .coin {
   opacity: .1;
@@ -660,7 +662,7 @@ to {
   margin-top: -200px;
   transform-origin: 5.5% 49%;
   border-radius: 48%;
-  animation: drift 3000ms infinite linear;
+  animation: drift 3000ms infinite linear; 
 }
 
 .coin.-one {
@@ -866,7 +868,7 @@ to {
 	text-decoration:none;
 	width:100%;
 	margin:0;
-	position: absolute;
+	position: absolute; 
 	bottom: 0;
 	left: 0;
 	text-align: center;
@@ -892,7 +894,7 @@ to {
 
 
 
-.cta-text{
+.cta-text{	
 	text-align: center;
 }
 
@@ -1102,10 +1104,10 @@ footer {
 	min-height: 200px;
 }
 footer{
-  margin-top:auto;
+  margin-top:auto; 
 }
 footer a {
-    color: #fff;
+    color: #FFFFFF;
 }
 
 footer a:hover,
@@ -1114,7 +1116,7 @@ footer a:active {
 }
 
 .bluehighlight {
-	color: #fff;
+	color: #FFFFFF;
 	text-align: center;
 	text-shadow: 0 1px 0 rgba(0, 0, 0, .1);
 	background: #15315e;
@@ -1157,7 +1159,7 @@ footer a:active {
 
 #rates {
 	font-family: Arial, sans-serif;
-	text-align: center;
+	text-align: center; 
 	padding: 40px 0 40px 0;
 	font-size: 1.5em;
 	font-weight: normal;
@@ -1165,7 +1167,7 @@ footer a:active {
 }
 
 #rates span {
-	margin: 0 10px 0 10px;
+	margin: 0 10px 0 10px; 
 }
 
 #rates #arrowplace {
@@ -1336,18 +1338,18 @@ line-height: 40px;
 /*=== v1.1 ===*/
 
  @media (max-device-width: 992px) {
-
+	 
 .masthead {
 background-size: cover;
 background-attachment: scroll;
 }
-
+	 
 }
+ 
 
-
-
+ 
 @media (max-width: 767px) {
-
+ 
 .scrollto {
 	display: none;
 }
@@ -1378,23 +1380,23 @@ background-attachment: scroll;
 }
 
 
-
+ 
 /*=== v 2.0 ===*/
 
 
 .signup-block {
-	padding:20px;
+	padding:20px;	
 	background:rgba(255,255,255,0.25);
 	border-radius:7px;
 	margin-bottom:25px;
 }
 
 .form-group.last {
-	margin-bottom:0;
+	margin-bottom:0;	
 }
 
 .multiple-btns .btn + .btn {
-	margin:10px;
+	margin:10px;	
 }
 
 
@@ -1403,7 +1405,7 @@ background-attachment: scroll;
 .signup-v-layout .masthead {
 padding: 15px;
 }
-
+ 
 .signup-v-layout .logo {
 padding: 10px 0;
 }
@@ -1413,7 +1415,7 @@ padding: 10px 0;
 .signup-video .masthead {
 padding: 15px;
 }
-
+ 
 .signup-video .logo {
 padding: 10px 0;
 }
@@ -1424,7 +1426,7 @@ padding: 10px 0;
 .web-app .masthead {
 padding: 15px;
 }
-
+ 
 .web-app .logo {
 padding: 15px 0;
 }
@@ -1446,7 +1448,7 @@ padding: 15px 0;
 .mob-app .masthead {
 padding: 15px;
 }
-
+ 
 .mob-app .logo {
 padding: 15px 0;
 }
@@ -1457,7 +1459,7 @@ padding: 15px 0;
 }
 
 .multiple-links a img {
-	margin:5px;
+	margin:5px;	
 }
 
 .mob-app .footercta {
@@ -1471,8 +1473,8 @@ padding: 15px 0;
 
 
 .navbar-default {
-	background-color: #127CC6;
-    background-image: linear-gradient(165deg,#0E073F 0%, #0057B8 43%, #0AADFD 100%);
+	background-color: #FFD700;
+    background-color: #FFD700;
     background-size: cover;
     background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -1560,7 +1562,7 @@ background-color: rgba(255, 255, 255, 0.21);
 	font-size: 12px;
 }
 .tag-cloud a:hover {
-	text-decoration:none;
+	text-decoration:none;	
 }
 .comments-block > .media {
 	border-bottom: 1px solid #eadeda;
@@ -1593,7 +1595,7 @@ background-color: rgba(255, 255, 255, 0.21);
 }
 
 .pay-address {
-
+	
 }
 
 .pay-address a {
@@ -1608,7 +1610,7 @@ background-color: rgba(255, 255, 255, 0.21);
 }
 
 .item-address {
-
+	
 }
 
 .item-address a {
@@ -1645,10 +1647,10 @@ background-color: rgba(255, 255, 255, 0.21);
 .shadow-depth-3{
   -webkit-box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
   -moz-box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19); 
   }
 .shadow-depth-4{
    -webkit-box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21);
   -moz-box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21);
   box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21);
-  }
+  } 

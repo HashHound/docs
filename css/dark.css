@@ -129,7 +129,7 @@ li input[type='checkbox'] {
   position: relative;
 }
 .app-nav li ul {
-  background-color: #fff;
+  background-color: #FFFFFF;
   border: 1px solid #ddd;
   border-bottom-color: #ccc;
   border-radius: 4px;
@@ -606,7 +606,7 @@ section.cover .cover-main > p:last-child a {
 }
 section.cover .cover-main > p:last-child a:last-child {
   background-color: var(--theme-color, #C89E61);
-  color: #fff;
+  color: #FFFFFF;
 }
 section.cover .cover-main > p:last-child a:last-child:hover {
   color: inherit;
