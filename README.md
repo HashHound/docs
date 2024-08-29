@@ -33,9 +33,8 @@
 * [Multisignature API](multisignature-api.md)
 
 ## Articles and Papers
-* [Dogemone Whitepaper v. 1.0](https://github.com/HashHound/papers/blob/master/whitepaper.pdf)
-* [CryptoNote Whitepaper v 2.0](https://github.com/HashHound/papers/blob/master/cryptonote_whitepaper.pdf)
-* [Various KIPs (Dogemone Imprmovement Proposals) and articles](https://github.com/HashHound/papers)
+
+* [CryptoNote Whitepaper v 2.0](https://github.com/HashHound/docs/blob/master/cryptonote_whitepaper.pdf)
 
 \
 \
@@ -48,4 +47,4 @@ The content is partially based on documentation that was originally written by t
 
 \
 \
-&copy; 2016-2022 Dogemone Developers
+&copy; 2016-2024 Dogemone Developers
