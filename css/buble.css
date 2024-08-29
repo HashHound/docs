@@ -129,7 +129,7 @@ li input[type='checkbox'] {
   position: relative;
 }
 .app-nav li ul {
-  background-color: #fff;
+  background-color: #FFFFFF;
   border: 1px solid #ddd;
   border-bottom-color: #ccc;
   border-radius: 4px;
@@ -178,7 +178,7 @@ li input[type='checkbox'] {
           animation: octocat-wave 560ms ease-in-out;
 }
 .github-corner svg {
-  color: #fff;
+  color: #FFFFFF;
   fill: var(--theme-color, #0074d9);
   height: 80px;
   width: 80px;
@@ -372,7 +372,7 @@ body.sticky .sidebar-toggle {
 .markdown-section p.tip:before {
   background-color: #f66;
   border-radius: 100%;
-  color: #fff;
+  color: #FFFFFF;
   content: '!';
   font-family: 'Dosis', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
   font-size: 14px;
@@ -534,7 +534,7 @@ section.cover.show {
   display: flex;
 }
 section.cover.has-mask .mask {
-  background-color: #fff;
+  background-color: #FFFFFF;
   opacity: 0.8;
   position: absolute;
   top: 0;
@@ -606,7 +606,7 @@ section.cover .cover-main > p:last-child a {
 }
 section.cover .cover-main > p:last-child a:last-child {
   background-color: var(--theme-color, #0074d9);
-  color: #fff;
+  color: #FFFFFF;
 }
 section.cover .cover-main > p:last-child a:last-child:hover {
   color: inherit;
@@ -626,7 +626,7 @@ section.cover blockquote > p > a:hover {
 /* sidebar */
 .sidebar {
   color: #364149;
-  background-color: #fff;
+  background-color: #FFFFFF;
 }
 .sidebar a {
   color: #666;
