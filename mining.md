@@ -7,7 +7,7 @@ You will also need wallet to where mined coins will be received. You can use GUI
 **Note:** For Dogemone solo mining you need not just wallet address but its secret keys.
 
 
-## GUI Wallet
+## GUI Wallet(only available on linux)
 
 Download and install Dogemone GUI Wallet Classic, create or open wallet, head to `Mining` tab and hit the button `Start Mining`. That's all. You can play around with CPU cores but don't set it to maximum as at some point it will stop enlarging your hashrate.
 
